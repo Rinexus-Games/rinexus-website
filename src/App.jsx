@@ -16,7 +16,7 @@ function App() {
       </div>
       
       <section id="about" className="py-16 bg-gray-100">
-  <div className="container mx-auto px-15">
+  <div className="container mx-auto px-20">
     <h2 className="text-4xl font-bold text-center mb-8">About Us</h2>
     <div className="bg-white rounded-lg shadow-lg flex">
       <div className="w-1/3 bg-black rounded-lg flex justify-center items-center p-6">
