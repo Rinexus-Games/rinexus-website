@@ -17,7 +17,6 @@ const arrowStyle = {
   transform: 'translateY(-90%)', // Center vertically
 };
 
-
 const NextArrow = (props) => {
   const { onClick } = props;
   return (
@@ -54,10 +53,10 @@ const settings = {
 };
 
 const OurGames = forwardRef((props, ref) => (
-  <section ref={ref} id="games">
+  <section ref={ref} id="games" className="relative">
     <div className="container mx-auto my-10">
       <h2 className="text-4xl font-bold text-center mb-8">Our Games</h2>
-      <div style={{ maxWidth: '1200px', margin: '40px auto' }}>
+      <div style={{ maxWidth: '1200px', margin: '40px auto', position: 'relative' }}>
         <Slider {...settings}>
           {[{ image: IMAGES.game1, title: 'Stranded on a Raft', badges: ['Survival', 'Sandbox'], description: 'Build, gather, and defend against enemies in this 2D survival game set at sea.', link: 'https://rinexusgames.itch.io/stranded-on-a-raft' },
             { image: IMAGES.game2, title: 'Pisonet Simulator', badges: ['Simulator', 'Tycoon'], description: 'A 2D simulator game where you become an owner of a pisonet business!', link: 'https://play.google.com/store/apps/details?id=com.rinexusgames.pisonet' },
@@ -84,6 +83,18 @@ const OurGames = forwardRef((props, ref) => (
               </div>
             ))}
         </Slider>
+        <img
+          src={IMAGES.sticker1}
+          alt="Left Sticker"
+          style={{ zIndex: 4, filter: 'drop-shadow(0 2px 8px rgba(0, 0, 0, 0.2))'}}
+          className="absolute left-[-120px] bottom-[-40px] transform w-40"
+        />
+        <img
+          src={IMAGES.sticker2}
+          alt="Right Sticker"
+          style={{ zIndex: 4, filter: 'drop-shadow(0 2px 8px rgba(0, 0, 0, 0.2))'}}
+          className="absolute right-[-120px] top-[-125px] transform w-40"
+        />
       </div>
     </div>
   </section>
