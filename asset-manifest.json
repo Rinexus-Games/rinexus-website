@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/rinexus-website/static/css/main.a0761210.css",
-    "main.js": "/rinexus-website/static/js/main.84be983a.js",
-    "static/js/453.bdf25d87.chunk.js": "/rinexus-website/static/js/453.bdf25d87.chunk.js",
-    "static/media/stranded-on-a-raft.png": "/rinexus-website/static/media/stranded-on-a-raft.e029ea2e424257d35736.png",
-    "static/media/game-thumbnail-1.png": "/rinexus-website/static/media/game-thumbnail-1.9eaf79bfbbb5a48a4598.png",
-    "static/media/game-thumbnail-2.png": "/rinexus-website/static/media/game-thumbnail-2.6eb9f8db1be79a9f05d1.png",
-    "index.html": "/rinexus-website/index.html",
-    "main.a0761210.css.map": "/rinexus-website/static/css/main.a0761210.css.map",
-    "main.84be983a.js.map": "/rinexus-website/static/js/main.84be983a.js.map",
-    "453.bdf25d87.chunk.js.map": "/rinexus-website/static/js/453.bdf25d87.chunk.js.map"
+    "main.css": "/static/css/main.a0761210.css",
+    "main.js": "/static/js/main.e4dcd936.js",
+    "static/js/453.bdf25d87.chunk.js": "/static/js/453.bdf25d87.chunk.js",
+    "static/media/stranded-on-a-raft.png": "/static/media/stranded-on-a-raft.e029ea2e424257d35736.png",
+    "static/media/game-thumbnail-1.png": "/static/media/game-thumbnail-1.9eaf79bfbbb5a48a4598.png",
+    "static/media/game-thumbnail-2.png": "/static/media/game-thumbnail-2.6eb9f8db1be79a9f05d1.png",
+    "index.html": "/index.html",
+    "main.a0761210.css.map": "/static/css/main.a0761210.css.map",
+    "main.e4dcd936.js.map": "/static/js/main.e4dcd936.js.map",
+    "453.bdf25d87.chunk.js.map": "/static/js/453.bdf25d87.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a0761210.css",
-    "static/js/main.84be983a.js"
+    "static/js/main.e4dcd936.js"
   ]
 }
