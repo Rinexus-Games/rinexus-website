@@ -1,6 +1,6 @@
 // App.jsx
 import React from 'react';
-import IMAGES from './img/index.js';
+import IMAGES from './img';
 import Navbar from './Navbar';
 import OurGames from './Games';
 
