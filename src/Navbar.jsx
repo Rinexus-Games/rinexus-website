@@ -31,8 +31,8 @@ const Navbar = () => {
               <a href="/about" className="text-white px-3 py-2 rounded-md text-sm font-medium">
                 About
               </a>
-              <a href="/services" className="text-white px-3 py-2 rounded-md text-sm font-medium">
-                Services
+              <a href="/games" className="text-white px-3 py-2 rounded-md text-sm font-medium">
+                Games
               </a>
               <a href="/contact" className="text-white px-3 py-2 rounded-md text-sm font-medium">
                 Contact
