@@ -27,7 +27,7 @@ function App() {
             </figure>
             <div className="card-body items-center text-center">
               <h2 className="card-title">Stranded on a Raft</h2>
-              <p>Embark on an epic adventure in Game 1.</p>
+              <p>Build, gather, and defend against enemies in this 2D survival game set at sea.</p>
               <div className="card-actions">
                 <a href="/play/game1" className="btn btn-primary">Play Now</a>
               </div>
@@ -43,7 +43,7 @@ function App() {
               />
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title">Game 2</h2>
+              <h2 className="card-title">Pisonet Simulator</h2>
               <p>Test your skills and strategy in Game 2.</p>
               <div className="card-actions">
                 <a href="https://play.google.com/store" target="_blank" rel="noopener noreferrer">
@@ -68,13 +68,13 @@ function App() {
           <div className="card bg-base-100 w-96 shadow-xl m-4">
             <figure className="px-10 pt-10">
               <img
-                src={IMAGES.game2}
+                src={IMAGES.game3}
                 alt="Game 3"
                 className="rounded-xl"
               />
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title">Game 3</h2>
+              <h2 className="card-title">Guess the Pixel</h2>
               <p>Join the battle and conquer in Game 3.</p>
               <div className="card-actions">
                 <a href="/play/game3" className="btn btn-primary">Play Now</a>
