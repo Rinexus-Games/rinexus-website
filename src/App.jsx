@@ -26,7 +26,7 @@ function App() {
               />
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title">Game 1</h2>
+              <h2 className="card-title">Stranded on a Raft</h2>
               <p>Embark on an epic adventure in Game 1.</p>
               <div className="card-actions">
                 <a href="/play/game1" className="btn btn-primary">Play Now</a>
